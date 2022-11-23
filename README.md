@@ -5,7 +5,7 @@ Some example of images are including as following:
 
 ![pic7](https://user-images.githubusercontent.com/85697619/203473974-7dce6a0e-0b70-4de8-803e-44e16a16e520.jpg)()![pic8](https://user-images.githubusercontent.com/85697619/203473976-62ee2df0-00ca-4fcc-a51c-19ad57345689.jpg)
 
-# Steps for localising
+# Steps for localising the car plate and perform recognition
 1. Grayscaling
 2. Convert to Binary
 3. Invert the image
