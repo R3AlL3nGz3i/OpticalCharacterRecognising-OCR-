@@ -19,3 +19,6 @@ Some example of images are including as following:
 11. Laplacian 
 12. Dilation and Erosion
 13. OTSU for character reading
+
+# Example Results
+![image](https://user-images.githubusercontent.com/85697619/203477862-fdde4fa2-8b93-4893-b72c-a8cd402de263.png)
