@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ISE Assignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tesseractTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)\..\x86\leptonica-1.80.0.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\..\x86\tesseract41.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\..\x64\leptonica-1.80.0.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\..\x64\tesseract41.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tesseract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Malaysia_malacca_license_plate.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic10.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic11.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic12.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic13.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic14.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic15.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic16.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic17.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic18.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic19.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Dataset\pic5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pic2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
